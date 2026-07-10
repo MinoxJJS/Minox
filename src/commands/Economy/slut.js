@@ -9,7 +9,7 @@ const SLUT_COOLDOWN = 45 * 60 * 1000;
 
 const SLUT_ACTIVITIES = [
     { name: "Cam Stream", min: 120, max: 450, risk: 0.2 },
-    { name: "Private Dance Session", min: 220, max: 700, risk: 0.25 },
+    { name: "Private Dance Session", min: 200, max: 700, risk: 0.25 },
     { name: "After-Hours Club Host", min: 320, max: 900, risk: 0.3 },
     { name: "VIP Companion Booking", min: 550, max: 1400, risk: 0.35 },
     { name: "Exclusive Livestream", min: 850, max: 2200, risk: 0.4 },
