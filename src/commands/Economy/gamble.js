@@ -5,8 +5,8 @@ import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHan
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
 const BASE_WIN_CHANCE = 0.4;
-const CLOVER_WIN_BONUS = .1;
-const CHARM_WIN_BONUS = 0.08;
+const CLOVER_WIN_BONUS = .01;
+const CHARM_WIN_BONUS = 0.01;
 const PAYOUT_MULTIPLIER = 3.0;
 const GAMBLE_COOLDOWN = 2 * 60 * 1000;
 
