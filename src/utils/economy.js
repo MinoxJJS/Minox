@@ -8,7 +8,7 @@ import { validateDiscordId, validateNumber } from './validation.js';
 import { DEFAULT_ECONOMY_DATA } from './constants.js';
 
 const ECONOMY_CONFIG = BotConfig.economy || {};
-const BASE_BANK_CAPACITY = ECONOMY_CONFIG.baseBankCapacity || 10000000000000;
+const BASE_BANK_CAPACITY = ECONOMY_CONFIG.baseBankCapacity || 100000000000000;
 const BANK_CAPACITY_PER_LEVEL = ECONOMY_CONFIG.bankCapacityPerLevel || 5000000000;
 const DAILY_AMOUNT = ECONOMY_CONFIG.dailyAmount || 100;
 const WORK_MIN = ECONOMY_CONFIG.workMin || 10;
