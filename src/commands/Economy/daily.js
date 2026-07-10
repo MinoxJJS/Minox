@@ -9,7 +9,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 
 const DAILY_COOLDOWN = 24 * 60 * 60 * 1000;
 const DAILY_AMOUNT = 1000;
-const PREMIUM_BONUS_PERCENTAGE = 0.1;
+const PREMIUM_BONUS_PERCENTAGE = 15.0;
 
 export default {
     data: new SlashCommandBuilder()
