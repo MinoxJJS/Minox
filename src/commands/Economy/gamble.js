@@ -4,11 +4,11 @@ import { getEconomyData, setEconomyData } from '../../utils/economy.js';
 import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHandler.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
-const BASE_WIN_CHANCE = 1;
+const BASE_WIN_CHANCE = .4;
 const CLOVER_WIN_BONUS = .2;
 const CHARM_WIN_BONUS = 0.05;
-const PAYOUT_MULTIPLIER = 9.0;
-const GAMBLE_COOLDOWN = 0.005 * 60 * 1000;
+const PAYOUT_MULTIPLIER = 2.0;
+const GAMBLE_COOLDOWN = 3 * 60 * 1000;
 
 export default {
     data: new SlashCommandBuilder()
