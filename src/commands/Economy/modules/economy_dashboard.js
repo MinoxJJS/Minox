@@ -303,7 +303,7 @@ async function handleAddCurrency(selectInteraction, rootInteraction, guild, clie
     const result = await addMoney(client, guild.id, userId, amount, type);
 
     if (!result.success) {
-        await replyUserError(submitted, { type: ErrorTypes.UNKNOWN, message: 'result.error || \'An error occurred.\'' });
+        await replyUserError(submitted, { type: ErrorTypes.UNKNOWN, message: result.error || 'An error occurred.' });
         return;
     }
 
@@ -405,7 +405,7 @@ async function handleRemoveCurrency(selectInteraction, rootInteraction, guild, c
     const result = await removeMoney(client, guild.id, userId, amount, type);
 
     if (!result.success) {
-        await replyUserError(submitted, { type: ErrorTypes.UNKNOWN, message: 'result.error || \'An error occurred.\'' });
+        await replyUserError(submitted, { type: ErrorTypes.UNKNOWN, message: result.error || 'An error occurred.' });
         return;
     }
 
