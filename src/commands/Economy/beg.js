@@ -7,7 +7,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 
 const COOLDOWN = 30 * 60 * 1000;
 const MIN_WIN = 100;
-const MAX_WIN = 2500;
+const MAX_WIN = 400;
 const SUCCESS_CHANCE = 0.3;
 
 export default {
