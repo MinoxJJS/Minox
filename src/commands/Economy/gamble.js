@@ -5,10 +5,10 @@ import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHan
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
 const BASE_WIN_CHANCE = .4;
-const CLOVER_WIN_BONUS = .2;
-const CHARM_WIN_BONUS = 0.05;
-const PAYOUT_MULTIPLIER = 2.0;
-const GAMBLE_COOLDOWN = 3 * 60 * 1000;
+const CLOVER_WIN_BONUS = 2.0;
+const CHARM_WIN_BONUS = 0.1;
+const PAYOUT_MULTIPLIER = 3.0;
+const GAMBLE_COOLDOWN = 2 * 60 * 1000;
 
 export default {
     data: new SlashCommandBuilder()
